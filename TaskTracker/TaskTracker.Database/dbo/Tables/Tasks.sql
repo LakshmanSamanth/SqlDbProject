@@ -4,8 +4,6 @@
     [Description] NVARCHAR (MAX) NULL,
     [Complete]    BIT            NOT NULL,
     [ProjectId]   INT            NOT NULL,
-    [StartDate] DATETIME NULL, 
-    [EndDate] DATETIME NULL, 
     CONSTRAINT [PK_dbo.Tasks] PRIMARY KEY CLUSTERED ([Id] ASC),
     CONSTRAINT [FK_dbo.Tasks_dbo.Projects_ProjectId] FOREIGN KEY ([ProjectId]) REFERENCES [dbo].[Projects] ([Id]) ON DELETE CASCADE
 );
