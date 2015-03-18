@@ -91,5 +91,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="TaskTracker.publish.xml" />
+    <None Include="TaskTracker.Test.publish.xml" />
   </ItemGroup>
 </Project>
