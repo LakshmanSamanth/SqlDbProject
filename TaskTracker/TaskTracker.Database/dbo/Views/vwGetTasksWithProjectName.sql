@@ -1,0 +1,8 @@
+﻿CREATE VIEW [dbo].[vwGetTasksWithProjectName]
+	AS 
+	Select 
+		t.Name as TaskName, 
+		p.Name as ProjectName
+	FROM dbo.Tasks t
+	inner join dbo.Projects p
+		on t.ProjectId = p.Id
