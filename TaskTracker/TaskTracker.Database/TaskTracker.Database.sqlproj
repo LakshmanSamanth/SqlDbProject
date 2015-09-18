@@ -95,6 +95,7 @@
     <None Include="TaskTracker.Test.publish.xml" />
     <None Include="DataScripts\Projects.sql" />
     <None Include="DataScripts\Tasks.sql" />
+    <None Include="TaskTracker.localDb.publish.xml" />
   </ItemGroup>
   <ItemGroup>
     <PostDeploy Include="Script.PostDeployment1.sql" />
