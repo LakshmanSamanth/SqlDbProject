@@ -7,4 +7,9 @@
     <TargetConnectionString>Data Source=(localdb)\MSSQLLocalDB;Integrated Security=True;Pooling=False</TargetConnectionString>
     <ProfileVersionNumber>1</ProfileVersionNumber>
   </PropertyGroup>
+  <ItemGroup>
+    <SqlCmdVariable Include="CRM">
+      <Value>CRM</Value>
+    </SqlCmdVariable>
+  </ItemGroup>
 </Project>
