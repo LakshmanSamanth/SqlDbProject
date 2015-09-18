@@ -98,4 +98,7 @@
       <DatabaseVariableLiteralValue>CRM</DatabaseVariableLiteralValue>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="TaskTracker.Database.publish.xml" />
+  </ItemGroup>
 </Project>
