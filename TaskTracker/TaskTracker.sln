@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.31101.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "TaskTracker.Database", "TaskTracker.Database\TaskTracker.Database.sqlproj", "{13C0913A-404A-4C19-BE44-FDC4B3941BCE}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CRM", "CRM\CRM.sqlproj", "{35D2F57C-4265-41D3-A6F0-B6B9D5C863A4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,12 @@ Global
 		{13C0913A-404A-4C19-BE44-FDC4B3941BCE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{13C0913A-404A-4C19-BE44-FDC4B3941BCE}.Release|Any CPU.Build.0 = Release|Any CPU
 		{13C0913A-404A-4C19-BE44-FDC4B3941BCE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{35D2F57C-4265-41D3-A6F0-B6B9D5C863A4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35D2F57C-4265-41D3-A6F0-B6B9D5C863A4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35D2F57C-4265-41D3-A6F0-B6B9D5C863A4}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{35D2F57C-4265-41D3-A6F0-B6B9D5C863A4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35D2F57C-4265-41D3-A6F0-B6B9D5C863A4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35D2F57C-4265-41D3-A6F0-B6B9D5C863A4}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
